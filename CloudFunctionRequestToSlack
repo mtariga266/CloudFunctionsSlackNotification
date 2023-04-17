@@ -10,7 +10,7 @@ def hello_world(request):
         `make_response <http://flask.pocoo.org/docs/1.0/api/#flask.Flask.make_response>`.
     """
     print("Github Webhook received")
-    url="https://hooks.slack.com/services/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"
+    url="https://hooks.slack.com/services/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"
     headers=CaseInsensitiveDict()
     headers["Content-Type"]="application/json"
 
